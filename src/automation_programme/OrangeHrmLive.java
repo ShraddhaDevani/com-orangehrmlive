@@ -51,7 +51,7 @@ public class OrangeHrmLive {
         //Enter the email to email field.
         driver.findElement(By.name("username")).sendKeys("Admin");
         //Enter the password to password field.
-        driver.findElement(By.name("password")).sendKeys("Admin123");
+        driver.findElement(By.name("password")).sendKeys("admin123");
         //Click on Login Button.
         WebElement login = driver.findElement(By.className("orangehrm-login-button"));
         login.click();
